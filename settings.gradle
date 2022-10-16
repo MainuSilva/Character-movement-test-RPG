@@ -1,2 +1,10 @@
 rootProject.name = 'Umbrella_game'
+include 'src:main:res'
+findProject(':src:main:res')?.name = 'res'
+include 'src:main:res'
+findProject(':src:main:res')?.name = 'res'
+include 'src:main:res'
+findProject(':src:main:res')?.name = 'res'
+include 'src:main:res'
+findProject(':src:main:res')?.name = 'res'
 
